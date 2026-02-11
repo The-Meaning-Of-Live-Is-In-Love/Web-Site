@@ -1,0 +1,58 @@
+.Header
+{
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFFAFA;
+}
+.Navigation
+{
+    text-align: center;
+    background-color: #FFFAFA;
+    border-top: 1px solid #FFF5EE;
+    border-bottom: 1px solid #FFF5EE;
+    font-size: 26px;
+}
+.Navigation ul
+{
+    display: flex;
+}
+.Navigation li
+{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Navigation li
+{
+    width: calc();
+}
+.Navigation a
+{
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+.Navigation li:last-child a
+{
+    border-right: none; 
+}
+.Navigation a:hover
+{
+    animation-name: Select;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes Select
+{
+    from
+    {
+        font-size: 26px;
+    }
+    to
+    {
+        font-size: 32px;
+    }
+}
