@@ -1,4 +1,6 @@
-var Li;
-var Count_Of_Elements_Li;
-Li = document.getElementById('Navigation_ul');
-Count_Of_Elements_Li = Li.getElementsByTagName('li').length;
+function Calculator_Upload_Display()
+{
+    var Value;
+    var Target = document.getElementById("Calculator_Display");
+    Target.innerHTML = Value;
+}
