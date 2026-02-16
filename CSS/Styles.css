@@ -74,7 +74,12 @@
 {
     border: 1px solid black;
 }
+:td
+{
+    --Count_Of_Elements_td: 0;
+}
 .Calculator td
 {
     border: 1px solid black;
+    width: calc(100 / var(--Count_Of_Elements_td));
 }
