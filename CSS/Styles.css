@@ -68,18 +68,18 @@
 }
 .Calculator div
 {
+    width: 100%;
     border: 1px solid black;
 }
 .Calculator tr
 {
     border: 1px solid black;
 }
-:td
+:root
 {
     --Count_Of_Elements_td: 0;
 }
 .Calculator td
 {
-    border: 1px solid black;
-    width: calc(100 / var(--Count_Of_Elements_td));
+    width: calc(100% / var(--Count_Of_Elements_td));
 }
